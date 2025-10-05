@@ -5,13 +5,14 @@ void small_stack_allocated_tree();
 void large_heap_allocated_tree();
 
 int main(void) {
-    small_stack_allocated_tree();
-    // large_heap_allocated_tree();
+    //small_stack_allocated_tree();
+    large_heap_allocated_tree();
 
     return 0;
 }
 
 void small_stack_allocated_tree() {
+
     // A small stack-allocated ancestry tree; does not use any helper functions.
 
     // Først laver jeg person struct'erne
